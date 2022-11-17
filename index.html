@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="title">My Personal Website</h1>
+      <nav class="navbar">
+        <a href="#facts-about-me">Facts About me</a>
+        <a href="#find-me"> Find me on...</a>
+        <a href="#text-about-me"> Text about me</a>
+        <a href="#cv">CV</a>
+      </nav>
+    </header>
+    <main>
+      <section class="facts-about-me">
+        <p>Name: Andreas Geckler</p>
+        <p>Birthday: 11.03.1996</p>
+        <p>From: Tübingen</p>
+        <p>EMail: meine@e.mail</p>
+        <p>Phone: 01234567890</p>
+      </section>
+      <figure class="my-image">
+        <img
+          src="./assets/stickman-businessman-character-walking-and-very-angry-cartoon-illustration-free-vector.webp"
+          alt="picture of me"
+          height="150px"
+          width="auto"
+        />
+        <figcaption>Here can you see me</figcaption>
+      </figure>
+      <article id="find-me">
+        <h2>You can find me on ....</h2>
+        <a href="https://github.com/AGeck113/" target="_blank"
+          ><img
+            src="https://1000logos.net/wp-content/uploads/2018/11/GitHub-logo.jpg"
+            height="100"
+            width="auto"
+        /></a>
+        <a href="https://de.linkedin.com/" target="_blank"
+          ><img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/640px-LinkedIn_logo_initials.png"
+            height="100"
+            width="auto"
+        /></a>
+        <a href="https://codepen.io/AGeck" target="_blank"
+          ><img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAeFBMVEX///8AAACdnZ0HBwf4+Pj8/Pw3Nzc8PDzg4OBxcXHw8PDj4+Pp6enW1tahoaHa2tpLS0tDQ0NNTU1ZWVkuLi6Xl5fIyMh8fHzNzc0oKCiMjIxsbGyysrKpqalGRkZjY2MbGxuQkJB5eXkTExO6urqvr6+EhIQwMDB7Vn9vAAAMsklEQVR4nOVd6WKyOhDVCi4IWEVBXIrY2r7/G16Vry3ImWSygL1wfrYCmUxmnySDQeNwHS+ID8dwl5z3WbSKsv052YXHQxx4jtv85xuFN4/zJFsPaayzJI/n3rMHqoXgMFulAtrKSFezQ/DsASthG66YtJWxCrfPHjgL/mWvQd039hf/2QSIscjfDMgr8JYvnk0GhelmbExegfFm+mxi6nAuX5bIK/B1cZ5NUgXB2Sp5Bc5/R71+vDZA3w1vH3/BI3BfTg3Rd8Pp5dk0ersGySuwe6bH420ap++GzbNodDfvrRA4HL5vnrJWP1oir8BH6/QFy1YJHA6X7doOb9YyfTfMWhTHw+gJBA6Ho0NL9PlaBn50SsfL1yjKouh1OU5PWpP02krkcVQc1SRLwjioxfHePIjDJJsovu3YOH1epDCc5edx4YsVvesvjp8qWitqWBpj9kgmm5gfHTjxhs/MuEH63IQ3hnT/oR77OB97Zl4nacz++6zVlJ63uiNwt2cWkcuGFE7MUX/7rVnk6mw5aZ5RIyv1Rf7hNLQRmDshg5EvFj70ALkXE9mb2FiusWfWPlbAkX7ybDdDtpDmRSKriRxPlkWb2Zd9X7ZqxhYt40LyrX0zus2XKR1ryyYQf2fVXFwTSKoDlr68FX/lYucrBC7ij1updIgdtVnTiVtHLI4W9LeQwEkbgXcgdFmNSRQu0dAGAQyEokEYLlSRklm3Vz6ZiurIRutIZCZsOxViiKTRwGh4gte2lTP5xkEwFm3T79CezLj9At9UMBpdhU77ou2u0G/QKzWy/cLm00EYdBJMa8rpeLD9DPs36EqCRrxIW/omM0EtjsqnUhYjE4fey8ejcW4S9SzIcSnGNy6VdEpNAqVv38TEF/KpFMdSLf9FpQ2/DOZ/+hsKrQyMjUc1fSQqb6GW+5dBJFHVXAaZJNJMK4gi5cuk+hycPy775Vz7XR61UPnDI0y9qjCXgKIDfWmk1CDb8FOGVVuLznEyYqXNRioiYLoiPvG4th2kwzttNlKKgrfKiAKoriczF4XoE102Et7NK+dZIkzR9UWF8flQn42EKDGCOg9LsWY0MZdXxF812YgDg5Fcn+IHx3qjkDGwgCYbsVmUsoJIzGj5IFNuw/Cb3uvxy2RpG+yPaqUseAwsoMVGrDGW4oewitIRQsWeFK0+EixRQqXvwkfWGh9n1FMfoOOp4iSjKMjA3ZTqUjLV2m+h8R34og39gAfbKdVlBDJwUl5TM+gGqLMRyvo7bTEgCyeqX8UtG5+V0YSDT/Qj9SYLOFMkE3HQpJo0h9M6DqqcvXIrgPZMdcFg60YxEfZsK+rRObSBu5vwP1A4cOH33hRdHKhPd/i3WJGqRfWQgetiGTxSeGUA1IVqbHTgqLE6hfpBqcJbC+QrE1qnkFg2auE/rBJjnYX2TaxUvkVKIE2hDWlElumEmAjdGQU1g23g7vdTkEJCGlVsI1Q2yM9EXtae/x3IwFN5hjCF1xHCTTcKbERNKW/1n8GZYJsnHMhXVRpFISGN/PAfpl3qqw91WbEthUQCZRSaSiOyGOfHH0Gly2QhTqXtHoVdQCEljUw2QiY+mjmkc2vTgAGtTFpPPYooHAwWMM3L9FTRAny0c6gYwMqPim0gn0Ij24jypw8xHwpDWBlklgTyKDSRRpSlrxocFFUwMsA+9kLxj6UUEmx8Y6gDlCGuRhhg9lL5eyEDv6jFzaBwsIClMwYbgRRX8oNoHUtfi1NpOfl7DoWDQY5eKk/GockuTzV6rSyowAwUuHk8CgeBFhuRtStPNuCGxGEjJFCUBGJSSMWNEmkErlvJc0MWU9zypyaBahTqSSNqovydFGDuU9EilYYRhhTqBBwO0DW/Rh9wWOTPQCdmLQ20FCikwn/RY8Cv+ZU08C56kfKdGBMK1V0ctEwF/0vJFQclkNUNrUgh0f1MSqMLluk3n8CgKU1KpNIY41WnkHJxKDYCWfueDqA3iOoGLLymzFSHOoWDAAYcRDkapGG+00zgJViTwpw4j4F6FBJsxDltZPSL/4D8Bc7kowCEvx8hLmvHNbuxA0ojNhvgl8XoQKERTxLQxzm3Xa62wZa91dXN65/FtgwssSLlBrIceIZrOTGJE1PCtp5PO7E3StRdnBP8HQihikwTUDRYDGtdGlwCHdzqmHArBrXQZ4Q/U//EXdWAPjiiFF7vQxHUIkuIqU67lCeN9dWHKQRNCPdew3n9y59cClldFKIt7oyeUBSGEhSCmuTNeILVSxgc2EskYyOQwDKk0ggtFEEhMNe3VZLX/0zIF+6WWgo9fljqreBTGMXg7heCQpCquEXBYBERwSbVRE6b7y3nAIGUZiPV0UFQCOLcmxhktb9OCFNFnjgwIaZEzsAChNz7ZFcjQaFbfyC7/rUeiGXEjArOVEBs3MLf53DEiI2ClhyCQsCttYuMCKXgRKdG1JQqlsDMH/j1YQyBNAqb4igKgcQ5qAGDCsHE52JUn9rCVEvhRMF+tK8qG8VNcRSF4CkP+d2UHZac/FEO3CADfw7Pwcf4lKQRh6FyCoHlC/AfpRSOoBb/ZiNWoeViEGwvSAUh+dUqlT9PjBCyCywZKogu89CBlvieDcOJsqiqb33Ixnu6DmfyNmWFQVEI/LMD8APIRuIKhYMF0QyDc9b1rhXIxq+AaMlZDDgUghbuI3jhiXj8gUKixAAXKDy+CksjfP7mmXAoBB0zIUgTkEWnRwoHC+bxVVSfP/NgtMndi2RRWJ+fHTAhZNd6jUKCjQ+I6IoDlsYH/CuwsCisVwkTkJogG6UBhYQ0liHeqCFl409DAIvCuoo/gywjue8EUUhkw34gYGABCRt/M3ksCuttT3vgypH1e0yh8GQOzk4bARvLmTwWhfXpysDfVCmE2bA7VryGHJ/qCq9k8jQpjEAeigotSAqpc3L45wDglVpdACwK6yty1QMedl8Ou69Lu28Pu+/TdN8v7X5sYTk+fCEyNNz4cEt0ehjEhw3E+DhJw4nxP5uI8bufp7GXayv1uhBslOTafj0Y3LMjpxCyy1q+tJr23kIpFeRL19V8qXgPqlK+tPs57wbrFvCXOfxrk3WLJmtPzAPOqUVjqfZkoX5Il4HJCn4Zgmo+dY+NWv0wr/9ZqQY8EdaA5WwUdmRMMRvVasBN1/HF1+28t1DHN+rFEBbx/0F0Mjdj4xEq5av1YnS/n6aNnijMxnNLPVGt9LXFoK+N3Z5o3NfWSm9iTamym9os9Ca21V9alkamBA7s9Jd2v0e4B33e3e/V7/5+i+7vmenBvqfu713r/v7D7u8hHeTgld3aB9z9vdzd34/fgzMVun8uRvfPNunB+TTdP2Oo++dEde6sL+B1IsXfqfPaenDmntv5cxN7cPZl988v7f4ZtD04R7j7Z0H34Dzv7p/J3oNz9bt/N0IP7rfowR0l3b9npgd3BXX/vqce3NnVg3vXun93Xg/uP6TvsNS/pNPmHZao3HuHwhWb1DLXvgB78MfuIaU7tE1ItHSXLEmg0l2yPbgPuPt3OvfgXu4e3K1OubY36PqopqD3nGoGBvQmXc0XGoKecr6pr4LUy1erYaDuNTEVjEbbhlG+zQ1aiQ0DEEHdHQbKmfJwb2h3pdIr1CAiuIFI29yxbm+lTkXnGqiWHR6ANxH+g4lvogJhnoB9HDEF2sYOVfYiGEB0sogV/0NI4nBm4Iqz4Igk0JKDJVyoilViZeCzfX5gvEQLiNTNFavmlmogqfBY+7LIaNywNwmpaPiojaQMIzNRhUf7EwVm9mn0xQJ49WRMorAaHOlBMmeLE3rFQrTz9I7Ito6Tzej1k/YCx1h+Mk8DLhWj5pmGNubVCRl73A0yWTRiyckfd+y3ZkQ6W5l6uWHUUJ4BN1k8Ik22ijmhH7jbhHNEgUbLBnsEzGMg0tmHOiedjxmLPIXLP3QgduHKmGxiPpVOvGEeqjVsPBOGD88hsPw8LnzxhLv+4vjJWv3/AA/VsgvmEWQ/mGRJGAfzx4F58yAOk4zPugKtJMEU+0j+YXRKx8vXKMqi6HU5Tk8cxVyDVk+KDg5awzPGqMXckCf3cOxj1rwElhGoaAcbWLaRTqiCzrA3gadUEtyN+HAde3jfNGnjRfCoc5zsYtOuAD7QKD6B1gZ2z6TvBvdFfKGTGU4vz1qfZbgHbg+iKt4Of4G+OwJpzkEDZ0upQktwLtIjk5WwvjSdatbAdCPLyHEx3rRfnmRikZuL5FtuN2tnHf6Fk2ihsL+0FT2YYRtq7bcI/5ZqkSE4zFbMvMswXc0O7TvWNuDN4zzJREp2nSV5XIv//29wHS+ID8dwl5z3WbSKsv052YXHQxx4TgsW/T91bN/Y99Au/AAAAABJRU5ErkJggg=="
+            height="100"
+            width="auto"
+        /></a>
+      </article>
+      <article id="text-about-me">
+        <h2>About me</h2>
+        <p>
+          Here should be text about me but i dont know what to write right now.
+          So i am sitting here and I am tipping some words without any meaning,
+          just that here is some code to show the semantic. I hope everything is
+          going to look good, but I am very optimistic about that.
+        </p>
+      </article>
+      <article class="cv">
+        <h2>My CV</h2>
+        <ul>
+          <li>Realschule Mössingen bis 2006-2012</li>
+          <li>Ausbildung Automobilkaufmann 2012-2015</li>
+          <li>Verkaufsberater für Neu- und Gebrauchtfahrzeuge 2015-2021</li>
+          <li>Vertriebsmitarbeiter Großhandel Photovoltaik 2021-2022</li>
+          <li>Bootcamp neue-fische Web Development 2022-aktuell</li>
+        </ul>
+      </article>
+    </main>
+    <footer>
+      <a href="#title">Back to the top</a>
+    </footer>
+  </body>
+</html>

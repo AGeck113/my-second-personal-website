@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Akaya Kanadaka";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("./assets/akaya-kanadaka-v16-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("./assets/akaya-kanadaka-v16-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Akaya Kanadaka";
+  background-color: darkgray;
+  text-align: center;
+  color: antiquewhite;
+}
+h1 {
+  border: 5px solid black;
+  margin: auto;
+  padding: 10px;
+  text-decoration: underline 3px dotted rgb(219, 16, 16);
+}
+.navbar {
+  border: 2px solid black;
+  margin-top: 10px;
+  background-color: antiquewhite;
+}
+.facts-about-me {
+  display: row;
+  margin: 20px;
+  padding: 10px;
+  border: 3px solid black;
+  box-shadow: 5px 5px 10px white;
+}
+.cv {
+  margin: auto;
+  padding: 5px;
+  text-align: center;
+  width: 50%;
+  border: 3px solid black;
+  box-shadow: 5px 5px 10px white;
+}
