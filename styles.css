@@ -22,6 +22,12 @@ h1 {
   padding: 10px;
   text-decoration: underline 3px dotted rgb(219, 16, 16);
 }
+h1::before {
+  content: "☕️";
+}
+h1::after {
+  content: "☕️";
+}
 .navbar {
   border: 2px solid black;
   margin-top: 10px;
@@ -33,12 +39,14 @@ h1 {
   border: 3px solid black;
   box-shadow: 5px 5px 10px white;
   width: fit-content;
+  border-radius: 10%;
 }
 .text-about-me {
   width: 50%;
   align: center;
   margin: 20px auto;
   border: 2px solid black;
+  box-shadow: 5px 5px 10px white;
 }
 .cv {
   margin: auto;
@@ -47,4 +55,17 @@ h1 {
   width: 50%;
   border: 3px solid black;
   box-shadow: 5px 5px 10px white;
+}
+:link {
+  color: blue;
+}
+footer {
+  margin-top: 20px;
+}
+footer p {
+  font-style: italic;
+  text-decoration: underline wavy 3px black;
+}
+a:visited {
+  color: purple;
 }
