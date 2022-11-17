@@ -62,7 +62,7 @@ h1::after {
 }
 .text-about-me {
   width: 100%;
-  align: center;
+  box-align: center;
   margin: 20px auto;
   border: 2px solid black;
   border-radius: 10%;
