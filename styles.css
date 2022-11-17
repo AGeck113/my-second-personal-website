@@ -12,7 +12,7 @@
 }
 body {
   font-family: "Akaya Kanadaka";
-  background-color: darkgray;
+  background-color: brown;
   text-align: center;
   color: antiquewhite;
 }
@@ -20,7 +20,7 @@ body {
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
   grid-auto-rows: minmax(10px, auto);
-  grid-template:
+  grid-template-areas:
     "fam fam myIm tam tam"
     "fm fm fm fm fm "
     "fm fm fm fm fm "
@@ -31,7 +31,8 @@ h1 {
   border: 5px solid black;
   margin: auto;
   padding: 10px;
-  text-decoration: underline 3px dotted rgb(219, 16, 16);
+  text-decoration: underline 3px dotted antiquewhite;
+  text-underline-offset: 4px;
 }
 h1::before {
   content: "☕️";
@@ -61,9 +62,10 @@ h1::after {
 }
 .text-about-me {
   width: 100%;
-  align: center;
+  box-align: center;
   margin: 20px auto;
   border: 2px solid black;
+  border-radius: 10%;
   box-shadow: 5px 5px 10px white;
   grid-area: tam;
 }
@@ -73,6 +75,7 @@ h1::after {
   text-align: center;
   width: 50%;
   border: 3px solid black;
+  border-radius: 10%;
   box-shadow: 5px 5px 10px white;
   grid-area: cv;
 }
@@ -85,6 +88,7 @@ footer {
 footer p {
   font-style: italic;
   text-decoration: underline wavy 3px black;
+  text-underline-offset: 3px;
 }
 a:visited {
   color: purple;
