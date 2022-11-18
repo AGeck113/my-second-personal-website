@@ -57,6 +57,10 @@ h1::after {
   margin-top: 10px;
   background-color: antiquewhite;
 }
+.navbar a {
+  margin: 10px;
+  padding: 10px;
+}
 .facts-about-me {
   margin: 20px auto;
   padding: 10px;
