@@ -23,8 +23,7 @@ body {
     "fam fam myIm tam tam"
     "fm fm fm fm fm "
     "fm fm fm fm fm "
-    "cv cv cv cv cv"
-    "footer footer footer footer footer";
+    "cv cv cv cv cv";
 }
 h1 {
   border: 5px solid black;
@@ -96,4 +95,7 @@ a:hover {
   line-height: 1.5;
   border: 2px solid;
   font-size: 25px;
+}
+footer :link {
+  color: white;
 }
