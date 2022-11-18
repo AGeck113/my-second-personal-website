@@ -25,6 +25,19 @@ body {
     "fm fm fm fm fm "
     "cv cv cv cv cv";
 }
+@media screen and (max-width: 600px) {
+  .display {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+      "fam fam"
+      "myIm myIm"
+      "fm fm"
+      "fm fm"
+      "cv cv"
+      "cv cv";
+  }
+}
 h1 {
   border: 5px solid black;
   margin: auto;
