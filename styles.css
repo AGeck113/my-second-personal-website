@@ -19,7 +19,6 @@ body {
 .display {
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
-  grid-auto-rows: minmax(10px, auto);
   grid-template-areas:
     "fam fam myIm tam tam"
     "fm fm fm fm fm "
